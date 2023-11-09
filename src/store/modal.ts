@@ -9,5 +9,5 @@ const slice = createSlice({
   },
 });
 
-export const { abrir, fechar} = slice.actions
-export default slice.reducer
+export const { abrir, fechar } = slice.actions;
+export default slice.reducer;

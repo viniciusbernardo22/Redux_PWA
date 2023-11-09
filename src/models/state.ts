@@ -1,4 +1,4 @@
-export type Counter = {
-    contador: { total: number };
+export type State = {
+    contador: number;
     modal: boolean;
   };
