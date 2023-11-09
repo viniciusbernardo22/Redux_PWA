@@ -8,3 +8,5 @@ const logger: Middleware<{}, any, Dispatch<AnyAction>> = (store) => (next) => (a
   console.log('NEW_STATE', store.getState());
   return result;
 };
+
+export default logger;
